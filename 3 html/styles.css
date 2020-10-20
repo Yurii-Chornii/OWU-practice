@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    border: 3px solid red;
+    width: 600px;
+    height: 700px;
+    margin: auto;
+    background-color: red;
+}
+p{
+    text-align: center;
+}
+header{
+    background-color: violet;
+    height: 20%;
+}
+.headerOldChild{
+    background-color: white;
+    width: 70%;
+    height: 60%;
+    margin: auto;
+    margin-top: 15px;
+    padding: 20px;
+}
+.headerSmallerChild{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+nav{
+    height: 15%;
+    background-color: gray;
+}
+.navBox{
+    float: left;
+    width: 25%;
+    height: 70%;
+}
+.navRedBox{
+    background-color: red;
+}
+.navOrangeBox{
+    background-color: orange;
+}
+.navBlueBox{
+    background-color: deepskyblue;
+}
+.navYellowBox{
+    background-color: yellow;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 15%;
+}
+main{
+    height: 50%;
+    background-color: white;
+}
+section{
+    height: 100%;
+    float: left;
+    width: 33.3333%;
+}
+.leftSection{
+    background-color: green;
+}
+.centerSection{
+    background-color: deepskyblue;
+}
+.rightSection{
+    background-color: blue;
+}
+.leftSectionChildBox{
+    margin: 25px auto;
+    background-color: white;
+    height: 75%;
+    width: 70%;
+}
+.leftSectionTopChild{
+    height: 15%;
+    clear: both;
+    background-color: orange;
+    width: 100%;
+}
+.leftSectionLeftChild, .leftSectionRightChild, .leftSectionTopChild{
+    float: left;
+}
+.leftSectionLeftChild{
+    clear: left;
+    background-color: navajowhite;
+}
+.leftSectionRightChild{
+    background-color: yellow;
+}
+.leftSectionLeftChild, .leftSectionRightChild{
+    width: 50%;
+    height: 85%;
+}
+.centerSectionChildBox{
+    background-color: white;
+    width: 100%;
+    height: 85%;
+    margin-top: 34px;
+}
+.centerSectionLeftChild, .centerSectionCenterChild, .centerSectionRightChild{
+    float: left;
+    height: 100%;
+    width: 33.3333%;
+}
+.centerSectionLeftChild{
+    background-color: red;
+}
+.centerSectionCenterChild{
+    background-color: yellow;
+}
+.centerSectionRightChild{
+    background-color: orange;
+}
+.centerSectionLeftSmallerChild, .centerSectionRightSmallerChild{
+    float: left;
+    width: 50%;
+}
+.centerSectionLeftSmallerChild{
+    background-color: orange;
+    height: 90%;
+    margin-top: 11px;
+}
+.centerSectionRightSmallerChild{
+    background-color: red;
+    height: 50%;
+    margin-top: 129px;
+}
+.rightSectionleftBox, .rightSectionCenterBox, .rightSectionRightBox{
+    width: 33.3333%;
+    height: 30%;
+    float: left;
+}
+.rightSectionleftBox{
+    background-color: deepskyblue;
+    margin-top: 192px;
+}
+.rightSectionCenterBox{
+    background-color: yellow;
+    margin-top: 139px;
+}
+.rightSectionRightBox{
+    background-color: orange;
+    margin-top: 78px;
+}
+.rightSectionRightBox div{
+    color: white;
+    background-color: black;
+    width: 60%;
+    margin-top: 23px;
+}
+.rightSectionRightBoxLeftChild{
+    margin-left: 40%;
+}

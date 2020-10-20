@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: darkblue;
+}
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+}
+.header{
+    height: 25%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    height: 20%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 0.6;
+}
+.nawChildWrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+nav div{
+    height: 90%;
+    width: 25%;
+}
+section{
+    height: 40%;
+    background-color: antiquewhite;
+    display: flex;
+}
+.art1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left{
+    height: 15%;
+    background-color: darkgray;
+}
+.aLeft{
+    background-color: indianred;
+    width: 50%;
+    height: 85%;
+    float: left;
+}
+.aLeft p{
+    text-align: center;
+}
+.bLeft{
+    background-color: coral;
+    height: 85%;
+}
+.bLeft p{
+    text-align: center;
+}
+.left p{
+    text-align: center;
+    margin: 0;
+}
+.art1 > p{
+    margin-bottom: 10%;
+}
+.art2{
+    background-color: deepskyblue;
+    display: flex;
+    flex-direction: column;
+}
+.centerWrapper{
+    width: 100%;
+    height: 85%;
+    background-color: silver;
+    display: flex;
+}
+.centerWrapper div{
+    height: 100%;
+    width: 33.3333%;
+}
+.art2 p{
+    text-align: center;
+}
+.art2 p{
+    text-align: center;
+    margin-bottom: 10%;
+}
+.leftArtBox{
+    background-color: black;
+    width: 80%;
+    height: 70%;
+}
+article{
+    height: 100%;
+    width: 33.33333%;
+}
+footer{
+    height: 15%;
+    background-color: indianred;
+}
+footer p{
+    text-align: center;
+}
+.headerChild{
+    width: 60%;
+    height: 60%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerChild div{
+    background-color: green;
+}
+.navChild1{
+    background-color: whitesmoke;
+}
+.navChild2{
+    background-color: darkgray;
+}
+.navChild3{
+    background-color: #623434;
+}
+.navChild4{
+    background-color: #3488c4;
+}
+.centerLeft{
+    background-color: chocolate;
+}
+.a-centrLeft{
+    background-color: navajowhite;
+}
+.a-centrRight{
+    background-color: violet;
+}
+.centerRight{
+    background-color: goldenrod;
+}
+.rightBlock{
+    background-color: silver;
+    width: 33.333%;
+    height: 40%;
+}
+.wrapperRight{
+    width: 100%;
+    height: 85%;
+    display: flex;
+}
+
