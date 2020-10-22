@@ -18,6 +18,7 @@ nav {
     text-transform: uppercase;
     font-family: "Segoe UI";
     padding: 0 10px;
+    transition: 0.5s;
 }
 
 nav > ul {
@@ -67,3 +68,28 @@ nav > ul > li > a:hover {
     justify-content: center;
     align-items: center;
 }
+#btn-oll-sections{
+    cursor: pointer;
+}
+.dropdown-style{
+    background-color: #2E2E2E;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    display: none;
+}
+.logo-dropdown-active{
+    background-color: #2E2E2E;
+}
+.dropdown-visibility{
+    display: block;
+}
+.covid-info-box{
+    padding: 0px 10px;
+}
+.covid-info-box > h6{
+    color: #7E0019;
+}
+
